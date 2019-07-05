@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GPS_courier_2</string>
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Network</string>
+    <string name="location_settings">Location settings</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+</resources>
