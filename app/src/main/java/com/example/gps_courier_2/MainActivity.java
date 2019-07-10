@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         if (location != null) {
             DecimalFormat df = new DecimalFormat("#.######");
             df.setRoundingMode(RoundingMode.CEILING);
-            Toast.makeText(this, df.format(location.getLatitude()) + "\n" + df.format(location.getLongitude()), Toast.LENGTH_LONG).show();
+//            Toast.makeText(this, df.format(location.getLatitude()) + "\n" + df.format(location.getLongitude()), Toast.LENGTH_LONG).show();
             tvLocationLatitude.setText(df.format(location.getLatitude()));
             tvLocationLongitude.setText(df.format(location.getLongitude()));
             JSONObject json = new JSONObject();
